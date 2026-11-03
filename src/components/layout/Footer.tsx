@@ -8,7 +8,6 @@ import {
   Link,
   Text,
   VStack,
-  HStack,
   useColorModeValue,
 } from "@chakra-ui/react";
 
