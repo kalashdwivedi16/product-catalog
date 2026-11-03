@@ -1,0 +1,45 @@
+
+/* Reset default browser spacing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* HTML settings */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Body styling */
+body {
+  min-width: 320px;
+  min-height: 100vh;
+
+  font-family: Inter, Arial, sans-serif;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Remove default link styling */
+a {
+  text-decoration: none;
+}
+
+/* Image styling */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Button cursor */
+button {
+  cursor: pointer;
+}
+
+/* Main React application container */
+#root {
+  min-height: 100vh;
+  width: 100%;
+}
